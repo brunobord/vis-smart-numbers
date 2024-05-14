@@ -32,6 +32,6 @@ vis.events.subscribe(vis.events.INIT, function()
 end)
 
 vis.events.subscribe(vis.events.WIN_OPEN, function(win) -- luacheck: no unused args
-	vis:command('set relitivenumber')
+	vis:command('set relativenumber')
 end)
 
