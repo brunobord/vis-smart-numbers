@@ -1,6 +1,6 @@
 require("vis")
 
--- Set relitive line numbers in normal mode, and regular line numbers in insert mode.
+-- Set relative line numbers in normal mode, and regular line numbers in insert mode.
 
 vis.events.subscribe(vis.events.INIT, function()
 
