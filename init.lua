@@ -11,7 +11,7 @@ vis.events.subscribe(vis.events.INIT, function()
 		end
 	end
 
-	-- key mapping
+	-- key mappings
 
 	-- normal
 	vis:map(vis.modes.NORMAL, "i", fk(":set numbers<Enter><vis-mode-insert>"),
