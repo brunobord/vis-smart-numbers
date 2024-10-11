@@ -36,12 +36,6 @@ vis.events.subscribe(vis.events.INIT, function()
 	--vis:map(vis.modes.NORMAL, "c", fk(":set numbers<Enter><vis-operator-change>"),
 	--"Change operator")
 
-	vis:map(vis.modes.NORMAL, "s", fk(":set numbers<Enter>cn"),
-	"cn")
-
-	vis:map(vis.modes.NORMAL, "S", fk(":set numbers<Enter>^c$"),
-	"^c$")
-
 	-- operator pending
 
 	-- TODO -- not working
